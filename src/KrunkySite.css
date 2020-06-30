@@ -1,0 +1,56 @@
+.App {
+  min-height: calc(100vh - 80px);
+  padding: 40px;
+  color: white;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.profile-icon {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.app-bar-wrapper {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.link {
+  color: #61dafb;
+}
+
+.body-section {
+  margin-bottom: 20px;
+}
+
+.body-image {
+ max-width: 300px;
+ background: transparent;
+}
+
+.common-list {
+  max-width: 300px;
+}
+
+.footer {
+  position: fixed !important;
+  top: auto !important;
+  bottom: 0;
+  align-items: center;
+}
+
+.margin-right-2 {
+  margin-right: 2px;
+}
+
+.stream-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
